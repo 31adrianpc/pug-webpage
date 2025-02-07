@@ -5,159 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Wilson-the-Pug</title>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            text-align: center;
-        }
-
-        header {
-            background-color: #ffce098a;
-            padding: 20px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        header h1 {
-            font-size: 32px;
-            margin: 0;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            padding: 10px 15px;
-            border-radius: 8px;
-            transition: 0.3s;
-        }
-
-        nav ul li a:hover {
-            background-color: white;
-            color: #ff9900;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 15px;
-            position: relative;
-            bottom: 0;
-            margin-top: 20px;
-        }
-
-        .container img {
-            border-radius: 10px;
-            margin-top: 10px;
-        }
-
-
-        .about {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 70vh;
-        }
-
-        .container {
-            max-width: 800px;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.01);
-        }
-
-        .container h2 {
-            font-size: 28px;
-            color: #333;
-        }
-
-        .container p {
-            font-size: 18px;
-            color: #555;
-        }
-
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            /* Ajusta columnas automáticamente */
-            gap: 10px;
-            /* Espacio entre imágenes */
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-
-        .gallery img {
-            width: 100%;
-            /* Hace que todas las imágenes ocupen el ancho del contenedor */
-            height: 200px;
-            /* Establece una altura fija para que todas sean uniformes */
-            object-fit: cover;
-            /* Recorta y ajusta la imagen sin deformarla */
-            border-radius: 10px;
-            /* Bordes redondeados */
-            transition: transform 0.3s ease;
-            /* Efecto de zoom al pasar el mouse */
-        }
-
-        .gallery img:hover {
-            transform: scale(1.1);
-        }
-    </style>
-
+    <title>Wilson the Pug</title>
 </head>
 
 <body>
-
     <header>
         <h1>🐶 Wilson The Pug 🐾</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="Gallery.html">Gallery</a></li>
-                <li><a href="Fav Toy.html">My Favorite Toy</a></li>
-                <li><a href="Fav Dishes.html">My Favorite Dishes</a></li>
-            </ul>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="fav-toy.html">My Favorite Toy</a></li>
+                <li><a href="fav-dishes.html">My Favorite Dishes</a></li>
+             </ul>
         </nav>
     </header>
 
-    <section class="gallery">
-        <a href="/assets/img/wilson parque.jpeg" target="_blank"><img src="/assets/img/wilson parque.jpeg" alt="Wilson in the park"></a>
-        <a href="/assets/img/wilson pelota.jpeg" target="_blank"><img src="/assets/img/wilson pelota.jpeg" alt="Wilson with his ball"></a>
-        <a href="/assets/img/wilson-baño.jpeg" target="_blank"><img src="/assets/img/wilson-baño.jpeg" alt="Bathed Wilson"></a>
-        <a href="/assets/img/wilson-durmiendo.jpeg" target="_blank"><img src="/assets/img/wilson-durmiendo.jpeg" alt="Wilson sleeping"></a>
-        <a href="/assets/img/wilson-durmiendo2.jpeg" target="_blank"><img src="/assets/img/wilson-durmiendo2.jpeg" alt="Wilson sleeping"></a>
-        <a href="/assets/img/wilson-sol.jpeg" target="_blank"><img src="/assets/img/wilson-sol.jpeg" alt="Wilson sunbathing"></a>
-        <a href="/assets/img/wilson-sucio.jpeg" target="_blank"><img src="/assets/img/wilson-sucio.jpeg" alt="Dirty Wilson"></a>
-        <a href="/assets/img/wilson-parque2.jpeg" target="_blank"><img src="/assets/img/wilson-parque2.jpeg" alt="Wilson in the park"></a>
-        <a href="/assets/img/wilson-mirada.jpeg" target="_blank"><img src="/assets/img/wilson-mirada.jpeg" alt="Wilson's look"></a>
-        <a href="/assets/video/wilson-jugando.mp4" target="_blank"><video src="/assets/video/wilson-jugando.mp4" autoplay loop muted height="200px"></video></a>
-        <a href="/assets/img/wilson-caja.jpeg" target="_blank"><img src="/assets/img/wilson-caja.jpeg" alt="Wilson on top of a box"></a>
-        <a href="/assets/img/wilson-durmiendo4.jpeg" target="_blank"><img src="/assets/img/wilson-durmiendo4.jpeg" alt="Wilson sleeping"></a>
-        <a href="/assets/img/wilson-gorro.jpeg" target="_blank"><img src="/assets/img/wilson-gorro.jpeg" alt="Wilson wearing a hat"></a>
-        <a href="/assets/img/wilson-durmiendo-pequeño.jpeg" target="_blank"><img src="/assets/img/wilson-durmiendo-pequeño.jpeg" alt="Wilson sleeping"></a>
-        <a href="/assets/img/wilson-pequeño.jpeg" target="_blank"><img src="/assets/img/wilson-pequeño.jpeg" alt="Baby Wilson"></a>
-        <a href="/assets/img/wilson-aburrido.jpeg" target="_blank"><img src="/assets/img/wilson-aburrido.jpeg" alt="Bored Wilson"></a>
-        <a href="/assets/img/wilson-parque-botella.jpeg" target="_blank"><img src="/assets/img/wilson-parque-botella.jpeg" alt="Wilson in the park"></a>
-        <a href="/assets/img/wilson-sofa.jpeg" target="_blank"><img src="/assets/img/wilson-sofa.jpeg" alt="Wilson on the couch"></a>
-        <a href="/assets/img/wilson-durmiendo3.jpeg" target="_blank"><img src="/assets/img/wilson-durmiendo3.jpeg" alt="Wilson sleeping"></a>
-        <a href="/assets/img/wilson-peluche.jpeg" target="_blank"><img src="/assets/img/wilson-peluche.jpeg" alt="Wilson with his friend"></a>
-    </section>
-
+    <main>
+        <section>
+                <a href="/assets/img/wilson-durmiendo.jpeg" target="_blank"><img src="/assets/img/wilson-durmiendo.jpeg" alt="Wilson sleeping" style="width: 100%; aspect-ratio: 3024/4032;"></a>
+                <a href="/assets/img/wilson-durmiendo2.jpeg" target="_blank"><img src="/assets/img/wilson-durmiendo2.jpeg" alt="Wilson sleeping" style="width: 100%; aspect-ratio: 1200/1600;"></a>
+                <a href="/assets/img/wilson-sucio.jpeg" target="_blank"><img src="/assets/img/wilson-sucio.jpeg" alt="Dirty Wilson" style="width: 100%; aspect-ratio: 1200/1600;"></a>
+                <a href="/assets/img/wilson-parque2.jpeg" target="_blank"><img src="/assets/img/wilson-parque2.jpeg" alt="Wilson in the park" style="width: 100%; aspect-ratio: 768/1024;"></a>
+                <a href="/assets/img/wilson-mirada.jpeg" target="_blank"><img src="/assets/img/wilson-mirada.jpeg" alt="Wilson's look" style="width: 100%; aspect-ratio: 1200/1012;"></a>
+                <a href="/assets/img/wilson-durmiendo4.jpeg" target="_blank"><img src="/assets/img/wilson-durmiendo4.jpeg" alt="Wilson sleeping" style="width: 100%; aspect-ratio: 1280/1280;"></a>
+                <a href="/assets/img/wilson-durmiendo-pequeño.jpeg" target="_blank"><img src="/assets/img/wilson-durmiendo-pequeño.jpeg" alt="Wilson sleeping" style="width: 100%; aspect-ratio: 1200/1600;"></a>
+                <a href="/assets/img/wilson-pequeño.jpeg" target="_blank"><img src="/assets/img/wilson-pequeño.jpeg" alt="Baby Wilson" style="width: 100%; aspect-ratio: 909/1217;"></a>
+                <a href="/assets/img/wilson-parque-botella.jpeg" target="_blank"><img src="/assets/img/wilson-parque-botella.jpeg" alt="Wilson in the park" style="width: 100%; aspect-ratio: 960/1280;"></a>
+                <a href="/assets/img/wilson-sofa.jpeg" target="_blank"><img src="/assets/img/wilson-sofa.jpeg" alt="Wilson on the couch" style="width: 100%; aspect-ratio: 1004/1333;"></a>
+                <a href="/assets/img/wilson-durmiendo3.jpeg" target="_blank"><img src="/assets/img/wilson-durmiendo3.jpeg" alt="Wilson sleeping" style="width: 100%; aspect-ratio: 3024/4032;"></a>
+        </section>
+    </main>
     <footer>
         <p>Derechos Reservados &copy; 2025</p>
     </footer>
